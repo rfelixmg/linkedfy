@@ -1,0 +1,18 @@
+[flake8]
+    exclude =
+        .git,
+        __pycache__,
+        .env,
+        .venv,
+        env,
+        venv,
+        .idea
+    max-line-length = 120
+    extend-ignore = ANN101, E203
+
+    per-file-ignores =
+        # Don't warn about unused imports in __init__ files
+        __init__.py:F401
+
+        # Don't warn about unused variables in CDK Stack file
+        bin/cdk_stacks.py:F841

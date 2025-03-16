@@ -1,0 +1,7 @@
+#Python 3.9.2
+pydantic
+pandas
+numpy
+mediapipe
+matplotlib
+pygame
