@@ -8,7 +8,7 @@ def main():
     cap = cv2.VideoCapture(0)
     pygame.init()
 
-    width, height = 640, 480
+    width, height = 1440, 960
     screen = pygame.display.set_mode((width, height + 90))  # Space for buttons
     pygame.display.set_caption("Camera with Face Detection and Landmarks")
 
